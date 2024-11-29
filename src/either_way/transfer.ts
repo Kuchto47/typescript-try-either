@@ -1,6 +1,7 @@
 import { addMoneyTo, hasEnoughBalance, isValidAccount } from '../common/helpers'
 import { Either } from './types'
-import { createProblem, createSuccess } from './utils'
+
+import {createProblem, createSuccess} from "./eitherUtils";
 
 export type TransactionError = 'INVALID_SENDER_ACCOUNT' | 'INVALID_RECEIVER_ACCOUNT' | 'NOT_ENOUGH_BALANCE'
 
