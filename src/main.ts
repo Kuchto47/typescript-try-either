@@ -9,7 +9,7 @@ import 'dotenv/config'
 import { createServer, IncomingMessage, ServerResponse } from 'http'
 import { resolve } from 'path'
 import { fileURLToPath } from 'url'
-import { Config } from './config.js'
+import { Config } from './config'
 
 const nodePath = resolve(process.argv[1])
 const modulePath = resolve(fileURLToPath(import.meta.url))

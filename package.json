@@ -12,7 +12,7 @@
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles",
     "test:coverage": "npm run test -- --coverage",
     "test:ci": "npm run test -- --colors --coverage --ci",
-    "lint": "eslint --ext .ts,.js .",
+    "lint": "eslint --ext .ts,.js my-app",
     "format": "prettier \"./**\" --write --ignore-unknown",
     "format:check": "prettier \"./**\" --ignore-unknown --check"
   },
